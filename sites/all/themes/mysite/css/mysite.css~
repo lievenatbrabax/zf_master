@@ -1,0 +1,119 @@
+/* ------------------- Main ------------------- */
+
+#main {
+  margin-top: -30px;
+  margin-bottom: 0px;
+  background-color: #FFFFFF;
+}
+
+#main-menu {
+  margin:-2px;
+  padding:0px;
+}
+
+#main-menu-links {
+  padding: 0 0px;
+}
+
+#main-menu-links li a.active, #main-menu-links li.active-trail a, #page #main-menu-links li.active-trail a, #page #main-menu-links li a.active{
+  background: none repeat scroll 0 0 #FFFFFF;
+}
+
+#header {
+
+  position: relative;
+
+}
+
+#login{
+  float:right;
+  position: relative;
+  z-index: 2;
+}
+
+#login a:link, #site-name a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 10px;
+}
+
+#logo {
+    float: right;
+    margin-right: -40px;
+    padding-top: 10px;
+    z-index: 1;
+}
+.tabs ul.primary li.active a {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #BBBBBB;
+}
+
+#footer-wrapper {
+    background: none repeat scroll 0 0 #003E75;
+    font-size: 0.857em;
+    width:920px;
+    margin: auto;
+}
+
+#page-wrapper #page{
+    background: none repeat scroll 0 0 #003E75;
+}
+
+.feed-icon {
+
+	float: right;
+	margin: 20px;
+	margin-top: 50px;
+
+}
+
+table tr th {
+    background: none repeat scroll 0 0 #003E75;
+}
+
+td.views-field-title {
+	width: 200px;
+}
+
+
+caption {
+	font-weight: bold;
+}
+
+.all .view-filters { 
+	float: right;
+	width: 17%;
+	margin-top: 0px;
+}
+
+.all .view-content {
+	float: left;
+	width: 78%;
+	margin-left: 5px;
+}
+
+input {
+	width: 120px;
+}
+
+select {
+	width: 130px;
+}
+
+.attachment-before {
+	float: left;
+	margin-left: -100px;
+}
+
+.middle .view-content {
+	float: left;
+	margin-left: 100px;
+}
+
+.attachment-after {
+	float: left;
+        
+}
+
+
